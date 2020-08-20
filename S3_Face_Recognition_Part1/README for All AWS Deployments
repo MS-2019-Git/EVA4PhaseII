@@ -1,0 +1,42 @@
+
+
+sudo chown -R $USER:$GROUP ~/.npm
+sudo chown -R $USER:$GROUP ~/.config
+
+sudo chmod -R a+rwx /home/osboxes/session3-face-alignment
+
+sudo chmod 666 /var/run/docker.sock
+
+
+Issue: exceptions.ReadTimeoutError: HTTPSConnectionPool
+export PIP_DEFAULT_TIMEOUT=100
+
+Issue: to resolve STDOUT due to requirements.txt
+pip install cmake
+pip install dmake
+
+pip install --default-timeout=100 dlib
+----------------------------------------------------------------------------------------------------------------------
+MOBILENET_V2 POST URL:
+https://um2qe2xwkj.execute-api.ap-south-1.amazonaws.com/dev/classify
+
+
+The below is the POST URL received after Serverless Deployment of the service for face alignment:
+https://df4cdel9k8.execute-api.ap-south-1.amazonaws.com/dev/align
+
+When this above POST url is checked on Insomnia, we received the below as "Predicted Class Id".
+https://session3-face-alignment-face-swap-mou.s3.amazonaws.com/test1.png
+
+
+The Frontend Website: use the s3 bucket name + "s3-website.ap-south-1.amazonaws.com"
+In my case the s3 bucket name is "session3-face-alignment-face-swap-mou"
+http://session3-face-alignment-face-swap-mou.s3-website.ap-south-1.amazonaws.com/
+-----------------------------------------------------------------------------------------------------------------------
+
+
+Group Submission Details:
+
+Code Repo:
+https://github.com/EVAPhase2/CodeRepository/tree/master/Assignment3
+Application:
+http://eva4-phase2-assignment3.s3-website.ap-south-1.amazonaws.com/

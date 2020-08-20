@@ -1,0 +1,86 @@
+.grid-x{
+    margin-top:2%;
+    padding:10px;
+}
+.large-l2{
+    margin-top: 50px;
+}
+
+.large-8 {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+  }
+.large-4 {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.output {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+}
+#faceswap{
+    margin:auto; 
+    width:50%; 
+    margin-bottom:20px;
+}
+
+#btnswapUpload{
+    border: 2px solid #4CAF50; 
+    border-radius:2px; 
+    margin-top:5px;
+}
+#btnalignUpload{
+    border: 2px solid #4CAF50; 
+    border-radius:2px; 
+    margin-top:5px;
+}
+h4{
+    background-color: #ffffff;
+    margin:auto; 
+    width:50%; 
+    margin-bottom:20px;
+    text-align:center;
+    font-size: 24px;
+}
+
+#btnResNetUpload{
+    border: 2px solid #4CAF50; 
+    border-radius:2px; 
+    margin-top:5px;
+}
+
+#btnMobileNetUpload{
+    border: 2px solid #4CAF50; 
+    border-radius:2px; 
+    margin-top:5px;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+  }
