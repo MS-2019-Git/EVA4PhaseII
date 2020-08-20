@@ -1,4 +1,0 @@
-dlib==19.21.0
-https://files.pythonhosted.org/packages/50/f9/5c454f0f52788a913979877e6ed9b2454a9c7676581a0ee3a2d81db784a6/opencv_python-3.4.0.12-cp36-cp36m-manylinux1_x86_64.whl
-numpy==1.18.5
-requests_toolbelt
