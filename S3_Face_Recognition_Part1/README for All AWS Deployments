@@ -16,6 +16,16 @@ pip install cmake
 pip install dmake
 
 pip install --default-timeout=100 dlib
+
+------------------------------------------------------------------
+
+Download the landmarks.dat file from :
+https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat
+
+To deploy the frontend code(html/js ) file on S3 bucket, check this below site:
+**How do i configure an S3 bucket for static website hosting? [Host Static Websites on AWS]
+
+
 ----------------------------------------------------------------------------------------------------------------------
 MOBILENET_V2 POST URL:
 https://um2qe2xwkj.execute-api.ap-south-1.amazonaws.com/dev/classify
